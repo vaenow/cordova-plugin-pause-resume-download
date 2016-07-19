@@ -4,4 +4,38 @@ Use the way Pause & Resume to download files for Cordova/PhoneGap
 
 扩展CordovaFilePlugin，断点续下载
 
+# How-to
+
+Use `new PRD()` instead of `new FileTransfer()`
+
+and the rest of usage is the same as [cordova-plugin-file-transfer](https://www.npmjs.com/package/cordova-plugin-file-transfer).
+
+
+```js
+
+//var fileTransfer = new FileTransfer();
+  var fileTransfer = new PRD();  // Use PRD ( extended cordova-plugin-pause-resume-download )
+
+var uri = encodeURI("http://some.server.com/download.php");
+
+fileTransfer.download(
+    uri,
+    fileURL,
+    function(entry) {
+        console.log("download complete: " + entry.toURL());
+    },
+    function(error) {
+        console.log("download error source " + error.source);
+        console.log("download error target " + error.target);
+        console.log("upload error code" + error.code);
+    },
+    false,
+    {
+        headers: {
+            "Authorization": "Basic dGVzdHVzZXJuYW1lOnRlc3RwYXNzd29yZA=="
+        }
+    }
+);
+```
+
 Thanks my friend @Jason @BlackSi
