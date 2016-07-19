@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-pause-resume-download" version="1.0.1">
+    <name>cordova plugin pause resume download file</name>
+    <description>Use the way Pause And Resume to download files for Cordova/PhoneGap</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,android,pause,and,resume,download,file,files</keywords>
+
+    <!-- info -->
+    <info>
+    </info>
+
+    <js-module src="www/jsv2/PauseResumeDownload.js">
+        <clobbers target="PRD" />
+    </js-module>
+
+</plugin>
