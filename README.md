@@ -4,11 +4,15 @@ Use the way Pause & Resume to download files for Cordova/PhoneGap
 
 扩展CordovaFilePlugin，断点续下载
 
+# Platforms
+  * Android 
+  * iOS
+
 # How-to
 
 Use `new PRD()` instead of `new FileTransfer()`
 
-and the rest of usage is the same as [cordova-plugin-file-transfer](https://www.npmjs.com/package/cordova-plugin-file-transfer).
+and the rest of usage is the same as [cordova-plugin-file-transfer # download](https://www.npmjs.com/package/cordova-plugin-file-transfer#download).
 
 
 ```js
