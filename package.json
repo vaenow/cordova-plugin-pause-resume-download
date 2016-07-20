@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-pause-resume-download",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Use the way Pause And Resume to download files for Cordova/PhoneGap",
   "main": "www/jsv2/PauseResumeDownload.js",
   "scripts": {
