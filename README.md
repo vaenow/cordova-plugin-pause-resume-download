@@ -1,4 +1,6 @@
 
+![build pass](https://travis-ci.org/vaenow/cordova-plugin-pause-resume-download.svg?branch=master)
+
 # cordova-plugin-pause-resume-download
 Use the way Pause & Resume to download files for Cordova/PhoneGap
 
