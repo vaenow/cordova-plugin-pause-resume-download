@@ -39,7 +39,7 @@ function _bind(scope, fn) {
 
 function PRD(option) {
     option = option || {};
-    this.disk = option.disk || cordova.file.externalRootDirectory;
+    this.disk = option.disk || cordova.file.dataDirectory;
     this.repeatNum = option.repeatNum || 10;
     this.percent = 0.00;
     this.verbose = option.verbose || false;
