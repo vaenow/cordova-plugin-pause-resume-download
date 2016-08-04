@@ -1,11 +1,8 @@
 {
   "name": "cordova-plugin-pause-resume-download",
-  "version": "1.0.2",
-  "description": "Use the way Pause And Resume to download files for Cordova/PhoneGap",
+  "version": "1.0.4",
+  "description": "Use the way Pause & Resume to download files for Cordova/PhoneGap",
   "main": "www/jsv2/PauseResumeDownload.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "cordova",
     "android",
@@ -16,6 +13,21 @@
     "file",
     "files"
   ],
+  "scripts": {
+    "test": "npm run jshint",
+    "jshint": "node node_modules/jshint/bin/jshint www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaenow/cordova-plugin-pause-resume-download"
+  },
   "author": "vaenow",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vaenow/cordova-plugin-pause-resume-download/issues"
+  },
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
+  "homepage": "https://github.com/vaenow/cordova-plugin-pause-resume-download"
 }

@@ -1,4 +1,6 @@
 
+![build pass](https://travis-ci.org/vaenow/cordova-plugin-pause-resume-download.svg?branch=master)
+
 # cordova-plugin-pause-resume-download
 Use the way Pause & Resume to download files for Cordova/PhoneGap
 
@@ -12,7 +14,7 @@ Use the way Pause & Resume to download files for Cordova/PhoneGap
 
 Use `new PRD()` instead of `new FileTransfer()`
 
-and the rest of usage is the same as [cordova-plugin-file-transfer # download](https://www.npmjs.com/package/cordova-plugin-file-transfer#download).
+and the rest of usage is **the same as** [cordova-plugin-file-transfer # download](https://www.npmjs.com/package/cordova-plugin-file-transfer#download).
 
 
 ```js
