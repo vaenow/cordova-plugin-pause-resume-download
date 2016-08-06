@@ -42,6 +42,18 @@ fileTransfer.download(
         }
     }
 );
+
+fileTransfer.onprogress = function(progress) {
+    console.log(progress.loaded, progress.total);
+    
+    /*if (this.pre === undefined) this.pre = 0;
+
+    var now = ~~((progress.loaded / progress.total) * 100 * 100);
+    if (now - +this.pre > 17) {
+        updateProgress(now / 100);
+        this.pre = now;
+    }*/
+}
 ```
 
 Thanks my friend @Jason @BlackSi
