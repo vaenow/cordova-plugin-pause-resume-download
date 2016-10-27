@@ -3,8 +3,6 @@
  * @author LuoWen
  * @date 20160505
  */
-
-
 module.exports = function(context) {
     var path = context.requireCordovaModule('path'),
         fs = context.requireCordovaModule('fs'),
