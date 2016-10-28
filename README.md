@@ -6,6 +6,17 @@ Use the way Pause & Resume to download files for Cordova/PhoneGap
 
 扩展CordovaFilePlugin，断点续下载
 
+# Demo Preview
+
+Just clone and install this demo.
+[cordova-plugin-pause-resume-download-DEMO](https://github.com/vaenow/cordova-plugin-pause-resume-download-demo)
+:tada:
+
+ * 如果喜欢它，请别忘了给我一颗鼓励的星
+ * Support me a `Star` if it is necessary.  :+1:
+ 
+![PRD-Demo](https://github.com/vaenow/cordova-plugin-pause-resume-download-demo/blob/master/screenshoots/prd-demo.gif)
+
 # Platforms
   * Android 
   * iOS
